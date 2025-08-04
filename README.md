@@ -1,4 +1,4 @@
-# 🎬 VueAgent - Video Separator & Analysis Tool
+# 🎬 Assistant AI - Video Separator & Analysis Tool
 
 A powerful Python-based video processing tool that separates video files into audio and video components, with additional capabilities for video analysis and chat-based interactions.
 
@@ -31,8 +31,8 @@ A powerful Python-based video processing tool that separates video files into au
 ### Setup
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd Vuenagent
+git clone https://github.com/kardwalker/Assistant_AI.git
+cd Assistant_AI
 ```
 
 2. Create and activate virtual environment:
@@ -88,7 +88,7 @@ analysis = VideoAnalysis(
 ## 📁 Project Structure
 
 ```
-Vuenagent/
+Assistant_AI/
 ├── Project/
 │   ├── separator.py      # Video separation functionality
 │   └── schema.py         # Data models and schemas
