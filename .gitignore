@@ -128,38 +128,67 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Virtual environment
-Vuenagent/
-Scripts/
-Lib/
+# Virtual environment files (specific to your project)
 Include/
+Lib/
+Scripts/
 pyvenv.cfg
+
+# Media files
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.mkv
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
 
 # IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# OS files
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Project specific
-*.mp4
-*.mp3
-*.avi
-*.mov
-*.wav
-*.flac
-
-# Logs and temporary files
-*.log
-*.tmp
-*.temp
-
-# API keys and secrets
-.env
+# API keys and sensitive data
+.env.local
+.env.production
+.env.development
+config/secrets.py
 secrets.json
-config.json
+
+# Model files (often large)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# Data files
+data/
+datasets/
+*.csv
+*.json
+*.xlsx
+*.xls
+
+# Backup files
+*.bak
+*.backup
