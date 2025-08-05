@@ -1,4 +1,4 @@
-# 🎬 Assistant AI - Video Separator & Analysis Tool
+# 🎬 Visual AI Assistant - Video Separator & Analysis Tool
 
 A powerful Python-based video processing tool that separates video files into audio and video components, with additional capabilities for video analysis and chat-based interactions.
 
